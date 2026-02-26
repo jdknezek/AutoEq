@@ -1,0 +1,2 @@
+python -m autoeq --input-file "measurements\Audeze LCD-S20.csv" --output-dir "results" --target "targets\SoundGuys.com Headphone Preference Curve.csv" --parametric-eq --parametric-eq-config "devices\q5k-peq.yaml" --thread-count "max"
+python -m autoeq --input-file "measurements\FiiO x Crinacle FHE_Eclipse.csv" --output-dir "results" --target "targets\SoundGuys.com Headphone Preference Curve.csv" --parametric-eq --parametric-eq-config "devices\q5k-peq.yaml" --thread-count "max"

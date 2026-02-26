@@ -1,0 +1,20 @@
+optimizer:
+  min_f: 10
+  max_f: 22000
+  max_time: null
+  min_change_rate: null
+  min_std: null
+filter_defaults:
+  min_gain: -12
+  max_gain: 12
+filters:
+  - type: LOW_SHELF
+  - type: PEAKING
+  - type: PEAKING
+  - type: PEAKING
+  - type: PEAKING
+  - type: PEAKING
+  - type: PEAKING
+  - type: PEAKING
+  - type: PEAKING
+  - type: HIGH_SHELF
